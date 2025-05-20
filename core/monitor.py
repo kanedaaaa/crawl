@@ -1,6 +1,6 @@
 from scapy.all import sniff
-import json
 from datetime import datetime
+import json
 
 class Monitor:
     def run(self, count = 30):

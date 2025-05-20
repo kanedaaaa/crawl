@@ -1,9 +1,10 @@
-import argparse
 from rich import print
 from rich.console import Console
-from core.crawler import Crawler
 from dotenv import load_dotenv
+import argparse
 import os
+
+from core.crawler import Crawler
 
 load_dotenv()
 

@@ -3,6 +3,7 @@ from rich.console import Console
 from threading import Thread
 from queue import Queue
 import time
+
 from core.monitor import Monitor
 from core.analysis import Analysis
 
